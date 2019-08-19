@@ -19,26 +19,85 @@ const example = {
 
 // Write your intern objects here:
 
+// for first Intern
+// 1, mmelloy0@psu.edu, Mitzi, F
+const firstIntern = {
+  id: 1,
+  name: "Mitzi",
+  email: "mmelloy0@psu.edu",
+  gender: "F",
+}
+
+// for second Intern
+// 2, kdiben1@tinypic.com, Kennan, M
+const secondIntern = {
+  id: 2,
+  name: "Kennan",
+  email: "kdiben1@tinypic.com",
+  gender: "M",
+  speak: function(talk) {
+    console.log(`${talk}, my name is Kennan!`);
+  }
+}
+
+// for third Intern
+// 3, kmummery2@wikimedia.org, Keven, M
+const thirdIntern = {
+  id: 3,
+  name: "Keven",
+  email: "kmummery2@wikimedia.org",
+  gender: "M",
+}
+
+// for fourth Intern
+// 4, gmartinson3@illinois.edu, Gannie, M
+const fourthIntern = {
+  id: 4,
+  name: "Gannie",
+  email: "gmartinson3@illinois.edu",
+  gender: "M",
+}
+
+// for fifth Intern
+// 5, adaine5@samsung.com, Antonietta, F
+const fifthIntern = {
+  id: 5,
+  name: "Antonietta",
+  email: "adaine5@samsung.com",
+  gender: "F",
+  multiplyNums: function (param1, param2) {
+        return param1 * param2;
+  }
+}
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(firstIntern.name);
 
 // Kennan's ID
+console.log(secondIntern.id);
 
 // Keven's email
+console.log(thirdIntern.email);
 
 // Gannie's name
+console.log(fourthIntern.name);
 
 // Antonietta's Gender
+console.log(fifthIntern.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
+secondIntern.speak("Hello");
+
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
+
+console.log(fifthIntern.multiplyNums(4,3));
 
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
