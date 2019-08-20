@@ -35,9 +35,7 @@ const secondIntern = {
   name: "Kennan",
   email: "kdiben1@tinypic.com",
   gender: "M",
-  speak: function(talk) {
-    console.log(`${talk}, my name is Kennan!`);
-  }
+  speak: (talk) => console.log(`${talk}, my name is Kennan!`),
 }
 
 // for third Intern
@@ -65,9 +63,7 @@ const fifthIntern = {
   name: "Antonietta",
   email: "adaine5@samsung.com",
   gender: "F",
-  multiplyNums: function (param1, param2) {
-        return param1 * param2;
-  }
+  multiplyNums:  (param1, param2) => param1 * param2,
 }
 
 // ==== Challenge 2: Reading Object Data ==== 
